@@ -26,6 +26,7 @@ print(f'Metadata: '
 
 Spectrum can be plotted with `matplotlib` library:
 ```
+import matplotlib.pyplot as plt
 plt.plot(opus_data.wave_nums, opus_data.spectrum)
 plt.show()
 ```
